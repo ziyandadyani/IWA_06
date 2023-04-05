@@ -33,7 +33,7 @@ if ((hourOfDay !== undefined && minuteOfDay !== undefined) && (hourOfDay == '00'
   const startingAfterTax = salary - (salary*taxAsDecimal)
 	const balance = startingAfterTax - transport - food - rent
 
-  console.log('R',balance.toFixed(2))
+  console.log('R'+balance.toFixed(2))
 }
 	
 // if I had used a strict equality "===" for (hourOfDay === '00' && minuteOfDay === '00') this would return false 
